@@ -6,7 +6,7 @@
 
 print("asdfasdf")
 
-function fact(n)
+local function fact(n)
     if n == 0 then
         return 1
     else
@@ -15,7 +15,7 @@ function fact(n)
 end
 
 print("enter a number:")
-a = io.read("*n")
+local a = io.read("*n")
 print(fact(a))
 
 
