@@ -5,7 +5,7 @@
 --	print(key, var)
 --end
 
-arr={}
+local  arr={}
 
 for var = 1, 100 do
   table.insert(arr,1,var)
@@ -16,10 +16,3 @@ for key, var in pairs(arr) do
 end
 
 print(table.pack("dd"));
-
-
-
-
-
-
-
